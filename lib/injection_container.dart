@@ -7,7 +7,7 @@ import 'package:get_it/get_it.dart';
 import 'features/route_info/data/repositories/route_info_repository_impl.dart';
 
 final sl = GetIt.instance;
-// addded from develop branch
+// addded from develop branch qweqw
 Future<void> initDI() async {
   /// Bloc
   sl.registerFactory(() => RouteInfoCubit(sl()));
