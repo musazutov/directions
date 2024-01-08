@@ -7,7 +7,6 @@ void main() async {
   await initDI();
   runApp(const MyApp());
 
-  // master branch change
 }
 
 class MyApp extends StatelessWidget {
@@ -25,4 +24,5 @@ class MyApp extends StatelessWidget {
       home: RouteInfoPage(),
     );
   }
-}
+}  // master branch change it to bottom
+
