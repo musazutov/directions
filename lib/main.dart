@@ -6,6 +6,8 @@ void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await initDI();
   runApp(const MyApp());
+
+  // master branch change
 }
 
 class MyApp extends StatelessWidget {
