@@ -6,11 +6,12 @@ void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await initDI();
   runApp(const MyApp());
- }
+// master branch change it to bottom
+}
 
 class MyApp extends StatelessWidget {
   const MyApp({Key? key}) : super(key: key);
-
+// updated main widget master
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
@@ -25,4 +26,3 @@ class MyApp extends StatelessWidget {
   }
 }
 
-// master branch change it to bottom
