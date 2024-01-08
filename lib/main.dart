@@ -6,8 +6,7 @@ void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await initDI();
   runApp(const MyApp());
-// master branch change it to bottom
-}
+ }
 
 class MyApp extends StatelessWidget {
   const MyApp({Key? key}) : super(key: key);
