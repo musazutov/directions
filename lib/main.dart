@@ -6,7 +6,7 @@ void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await initDI();
   runApp(const MyApp());
-
+// master branch change it to bottom
 }
 
 class MyApp extends StatelessWidget {
@@ -24,5 +24,5 @@ class MyApp extends StatelessWidget {
       home: RouteInfoPage(),
     );
   }
-}  // master branch change it to bottom
+}
 
