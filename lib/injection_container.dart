@@ -29,3 +29,4 @@ Future<void> initDI() async {
   sl.registerLazySingleton(() =>
       Dio(BaseOptions(baseUrl: 'https://scrmobiletest.azurewebsites.net/api')));
 }
+//added this line
